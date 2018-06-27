@@ -1,0 +1,14 @@
+! Looks
+!URxvt.font: xft:DejaVu Sans Mono, Terminus Bold Semi-Condensed:size=11
+URxvt.font:xft:TamzenForPowerline:size=14
+!URxvt.letterSpace: -4
+URxvt.scrollBar: false
+URxvt*background: #300A24
+URxvt*foreground: white
+URxvt.transparent: 1
+URxvt.shading: 15
+
+! Clickable URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
